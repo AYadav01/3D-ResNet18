@@ -11,8 +11,6 @@ import torch
 import torch.nn as nn
 import numpy as np
 from default_tranforms import RandomNoise, VerticalFlip, HorizontalFlip, ToTensor
-# from skimage.measure import label
-# from skimage.color import label2rgb
 
 
 class TrainModel:
