@@ -314,6 +314,6 @@ if __name__ == "__main__":
     num_epochs = 1
     batch_size = 5
     # Call for Training
-    path_to_folds = "C:\\Users\\AnilYadav\\PycharmProjects\\HSCNN\\training_fold\\"
+    path_to_folds = "path_to_training_data (in pickle_format)"
     train_obj = TrainModel(in_channel, malignancy_class, num_epochs, batch_size)
     train_obj.start_training(path_to_folds, number_folds)
