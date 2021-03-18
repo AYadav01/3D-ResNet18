@@ -211,7 +211,7 @@ if __name__ == "__main__":
     batches = 2
     path_to_weights = None
     train_images = "path_to_training_slices"
-    train_masks = "path_to_training_masksD:\\Unet-3d\\train\\slice_mask\\"
+    train_masks = "path_to_training_masks"
     valid_images = "path_to_validation_slcies"
     valid_masks = "path_to_validation_masks"
     train_obj = TrainModel(img_channel, out_num_class, num_epcohs, batches, path_to_weights)
